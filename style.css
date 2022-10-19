@@ -1,0 +1,99 @@
+body { 
+	background-color: rgb(255, 252, 247) ;
+	color : rgb(221, 103, 122);
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 600;
+	font-size: 17px;
+ }
+
+ }
+
+ h1, h2 {
+ 	font-family: 'Bebas Neue', cursive;
+ }
+ 
+ h1 { 
+ 	color : rgb(133, 14, 53);
+ 	font-weight: 600;
+ 	letter-spacing: 0px;
+ 	font-size: 35px ;
+  }
+ 
+ h2 { 
+ 	color : rgb(0, 97, 112);
+ 	font-weight: 600;
+ 	font-size: 23px ;
+ 	line-height: 0;
+  }
+
+ a {
+  	font-family: 'Alkalami', serif;
+  	text-decoration: none;
+  	color: rgb(133, 14, 53);
+  	transition: color 1s;
+  	
+  }
+  a:hover {
+  	color: rgb(19, 154, 175);
+  }
+  
+  p {
+  	line-height: 1;
+  }
+
+.container {
+	width: 600px;
+    margin: 10px auto;
+}
+
+@media (max-width:  760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width:  500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width:  350px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.box-white {
+	background: white;
+	padding: 15px;
+	margin: 12px;
+	box-shadow: 0px 10px 30px rgba(133, 14, 53,35%);
+	border-radius: 7px;
+	text-align: center;
+}
+
+ .img-square {
+ 	border-radius: 15%;
+}
+
+/*.button-burgundy {
+	background-color: rgb(255, 234, 231);
+	border-radius: 4px;
+	color: rgb(140, 14, 53);
+	padding: 7px 20px;
+}
+*/
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+	margin: 0px;
+}
+
+.list-inline i {
+	font-size: 30px;
+}
